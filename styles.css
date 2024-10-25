@@ -14,14 +14,17 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2, h3 {
+h1 {
     text-align: center;
+    color: #4CAF50; /* Green for the main title */
 }
 
-form {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+h2 {
+    color: #333; /* Dark gray for subheadings */
+}
+
+h3 {
+    color: #E91E63; /* Pink for total amount */
 }
 
 input, select {
@@ -42,4 +45,15 @@ button {
 
 button:hover {
     background-color: #218838;
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+li {
+    padding: 5px;
+    color: #555; /* Gray for item list */
+    border-bottom: 1px solid #ccc; /* Divider between items */
 }
